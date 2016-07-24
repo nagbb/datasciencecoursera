@@ -52,6 +52,8 @@ plot(stepsperinterval$interval,stepsperinterval$steps, type="l", xlab="Interval"
 maxstepsinterval <- stepsperinterval[which.max(stepsperinterval$steps),1]
 ```
 
+##*The maximum number of steps is `r maxstepsinterval` 
+
 #**Imputing missing values**
 
 ###Calculating the total number of missing values in the dataset (i.e. the total number of rows with NAs)
